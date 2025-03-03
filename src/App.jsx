@@ -4,7 +4,7 @@ import React from 'react'
 const App = () => {
   return (
     <main>
-      <h1 className='text-5xl text-orange-500 font-bold' >Welcome to the awards</h1>
+      <h1 className='text-5xl text-violet-300 font-bold font-[robert-medium]' >Welcome to the awards</h1>
     </main>
   )
 }
