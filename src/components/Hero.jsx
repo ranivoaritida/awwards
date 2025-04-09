@@ -20,7 +20,6 @@ const Hero = () => {
 
     const handleVideoLoad = () => {
         setLoadedVideos( (prev) => prev + 1);
-        console.log(loadedVideos);
     }
 
     const upcomingVideoIndex = (currentIndex % totalVideos) + 1;
